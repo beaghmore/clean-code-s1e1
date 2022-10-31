@@ -13,7 +13,9 @@ var addButton=document.getElementsByTagName("button")[0];//first button
 var incompleteTaskHolder=document.getElementById("incomplete-tasks");//ul of #incompleteTasks
 var completedTasksHolder=document.getElementById("completed-tasks");//completed-tasks
 
-document.getElementById("checked").checked = "true";
+let a = document.querySelectorAll(".checked").forEach((item) => item.checked = true);
+let b = document.querySelectorAll(".unchecked").forEach((item) => item.checked = false);
+
 
 
 //New task list item
