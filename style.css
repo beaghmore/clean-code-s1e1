@@ -38,7 +38,7 @@ body {
   width: 100%;
 }
 .page-header__subtitle {
-  font-family: fantasy, cursive;
+  font-family: Lato, cursive;
 }
 
 .task-list__item {
